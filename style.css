@@ -1,0 +1,29 @@
+body {
+    margin:200px;
+    font-family: Cambria;
+    color: red;
+
+}
+
+h1 {
+    color: yellow;
+}
+
+html {
+    background-color: teal;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blue {
+    color: blue;
+
+}
+
+#timeline {
+    font-family: 'Times New Roman';
+}
