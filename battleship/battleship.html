@@ -1,9 +1,49 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Battleship</title>
+
+    <!--Reference platform.js library here-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--client id: 821725385923-40e5tfsh14n149q0ijm4pjni7kad659u.apps.googleusercontent.com-->
+    
+    <!--client secret: 5nUbsk4KoYdcgqS18cbkVgw5-->
+    <!--Reference Client ID in meta tag here-->
+    <meta name="google-signin-client_id" content="9015101751-ju5lm2j9hsbs8hrtvjaq56k9pda5t4at.apps.googleusercontent.com">
+
+
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--custom files-->
+
+    <link rel="stylesheet" href="style.css">
         <script src="sketch.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.js"></script>
     </head>
     <body>
-    </body>
+    <div class="signs">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
+    </div>
+    <div class ="mainContainer">
+        <!--Text greeting user-->
+        <header>
+            <h1>WELCOME <span class="userName">USER_NAME</span></h1>    
+        </header>
+        <!--Populate section with user data-->
+        <section>
+            <!--User Data-->
+            <div class="userData">
+                <h2>E-MAIL:</h2>
+                <p class="email">example@example.com</p>
+            </div>
+        </section>
+    </div>
+</body>
 </html>

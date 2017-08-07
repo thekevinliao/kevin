@@ -1,0 +1,11 @@
+.g-signin2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.signOut{
+    position: absolute;
+    right: 10px;
+    color:white;
+}
